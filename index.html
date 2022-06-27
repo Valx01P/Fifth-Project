@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OgreEmporium</title>
+
+  <!-- Icon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Stoke:wght@300;400&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- CSS Stylesheets-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/f2be266c31.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <!-- Fixed Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-2">
+    <div class="container-fluid">
+      <div class="container shrek-brand">
+        <a class="navbar-brand" href="#">
+          <img src="images/shreklogo.png" alt="OgreEmporium">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Browse OgreStores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Create Your Own OgreStore</a>
+          </li>
+        </ul>
+        <form class="d-flex search-form" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Banner-->
+  <section id="title" class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div>
+          <h2>Welcome to the Swamp</h2>
+          <h1>Browse Ogre Wares Online</h1>
+          <h3>Shop at over 10,000 ogre stores</h3>
+          <h3>or start your own ogre store</h3>
+        </div>
+        <button type="button" class="btn btn-dark btn-outline-success btn-lg shrek-button bg-2 hero-button">Create Account <i class="fa-solid fa-location-arrow"></i></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Service Section -->
+
+  <section id="services" class="section">
+    <div class="container-fluid">
+      <div class="row">
+        <div>
+          <h2 class="service-heading-2 mc-2">Your complete ogre shop solution <i class="fa-solid fa-square-caret-down"></i></h2>
+        </div>
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="col-lg-4 mc-2">
+              <img class="solution-image bg-1" src="images/buying.png" alt="buying">
+              <h3>Shop Online</h3>
+              <h4 class="service-heading-4">Browse at over 10,000 privately owned ogre shops and find products that suit your needs and wants</h4>
+            </div>
+
+            <div class="col-lg-4 mc-2">
+              <img class="solution-image bg-1" src="images/selling.png" alt="selling">
+              <h3>Sell Online</h3>
+              <h4 class="service-heading-4">Start your own ogre shop and sell products online to your customers to start earning today</h4>
+            </div>
+
+            <div class="col-lg-4 mc-2">
+              <img class="solution-image bg-1" src="images/onlinebusiness.png" alt="onlinebusiness">
+              <h3>Expand your Business</h3>
+              <h4 class="service-heading-4">Grow your business using advertising, market data, user trend data, and much more</h4>
+            </div>
+          </div>
+        </div>
+        <button type="button" class="btn btn-dark btn-outline-success btn-lg shrek-button bg-2">Join Today</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel -->
+  <section id="testimonials" class="small-section bg-1 mc-3">
+
+
+      <div id="testimonial-carousel" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active container-fluid">
+            <div class="testimonial-container bg-2 container-fluid">
+              <h2 class="testimonial-text">"OgreEmporium </h2>
+              <h3 class="testimonial-text">Changed My Life"</h3>
+            </div>
+
+            <video controls height="120" width="490">
+            	<source src="images/shrekshouse.mp4" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="carousel-item container-fluid">
+            <div class="testimonial-container bg-2 container-fluid">
+            <h2 class="testimonial-text">"OgreEmporium </h2>
+            <h3 class="testimonial-text">makes it easy to browse, sell, and buy items online"</h3>
+            </div>
+            <img class="testimonial-image" src="images/hitogre.png" alt="hitmanshrek">
+            <img class="testimonial-image" src="images/donkey.jpg" alt="donkey">
+            <img class="testimonial-image" src="images/shrekpizza.jpg" alt="shrekspizza">
+
+
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonial-carousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+  </section>
+
+  <!-- Angled Background Transitionary Div -->
+  <div class="angled-transition"></div>
+
+  <!-- Last Section -->
+
+  <section id="cta" class="small-section bg-2 mc-3">
+    <div class="container-fluid">
+      <div class="row">
+        <div>
+          <h2>So Why Not</h2>
+          <h1>Join the Swamp Today</h1>
+          <img class="shrekpixel" src="images/shrekpix.png" alt="shrekpixel">
+          <h3 class="cta-heading-3">-and-</h3>
+          <h3>Begin your journey with the all in one </h3>
+          <h3>OgreEmporium eCommerce platform</h3>
+          <h2>for FREE</h2>
+        </div>
+        <button type="button" class="btn btn-dark btn-outline-success btn-lg shrek-button bg-2 hero-button">Join Today <i class="fa-solid fa-location-arrow"></i></button>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+
+<footer id="footer" class="small-section bg-1 mc-3">
+
+        <div class="container-fluid">
+
+          <i class="social-icon fa-brands fa-facebook-f"></i>
+          <i class="social-icon fa-brands fa-twitter"></i>
+          <i class="social-icon fa-brands fa-instagram"></i>
+          <i class="social-icon fa-solid fa-envelope"></i>
+          <p class="copyright">© Copyright 2022 OgreEmporium<sup>®</sup>LLC</p>
+
+        </div>
+
+</footer>
+
+</body>
+
+</html>

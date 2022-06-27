@@ -1,0 +1,172 @@
+/* If your wondering about my fonts, well I just used the vanilla bootstrap fonts,
+I didn't wanna spend 2 hours on typography for a practice project sorry */
+/* Reusable CSS Classes */
+video {
+  height: 30.25rem;
+  width: 40.25rem;
+  border-width: thick;
+  border-color: #131921;
+  border-style: solid;
+  background-color: #131921;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #232f3e;
+  line-height: 1.5;
+}
+
+.section {
+  padding: 15% 15% 25%;
+  text-align: center;
+}
+
+.small-section {
+  padding: 0 15% 8%;
+  text-align: center;
+}
+
+.bg-1 {
+  background-color: #232f3e;
+}
+
+.bg-2 {
+  background-color: #131921;
+}
+
+.mc-2 {
+  color: #131921;
+}
+
+.mc-3 {
+  color: #acd25f;
+}
+
+.shrek-button {
+  width: 33.3%;
+  margin: 0 auto;
+}
+
+.solution-image {
+  width: 12.5rem;
+  height: 12.5rem;
+  border-radius: 50%;
+  border-width: thick;
+  border-style: solid;
+  border-color: #131921;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+
+/* Navbar */
+
+.shrek-brand {
+  width: 26.65rem;
+}
+
+.nav-link {
+  margin: 0 3rem;
+  color: #acd25f;
+}
+
+.nav-link:hover {
+  text-shadow: rgba(172,210,95,1) 0 0 44px;
+  color: #627a2e;
+}
+
+.btn-outline-success {
+  color: #acd25f;
+  border-color: #acd25f;
+}
+
+.btn-outline-success:hover {
+  text-shadow: rgba(172,210,95,1) 0 0 44px;
+  background-color: #627a2e;
+}
+
+.search-form {
+  margin-right: 1rem;
+}
+
+/* Hero Banner*/
+
+#title {
+background: #fff url(https://i.pinimg.com/originals/34/05/20/34052035178b123004904ce4b88e613b.jpg) center center/cover no-repeat;
+}
+
+.hero-button {
+  margin-top: 3rem;
+}
+
+/* Services Section */
+#services {
+  background-color: #3f6407;
+  padding: 15% 15% 12%;
+  clip-path: polygon(0 0, 100% 0, 100% 84%, 0% 100%);
+}
+
+.service-heading-2 {
+  padding-bottom: 3rem;
+}
+
+.service-heading-4 {
+margin-top: 2rem;
+margin-bottom: 5rem;
+}
+
+/* Testimonial Carousel */
+
+#testimonials {
+  padding: 0 15% 0;
+}
+
+.testimonial-container {
+  width: 60%;
+  border-width: thin;
+  border-style: solid;
+  border-color: #acd25f;
+}
+
+.testimonial-image {
+  width: 12.5rem;
+  height: 12.5rem;
+  margin: 3rem 1.5rem;
+  border-width: medium;
+  border-style: solid;
+  border-color: #131921;
+}
+
+/* Angled Transitionary Div */
+
+.angled-transition {
+  width: auto;
+  height: 10.5rem;
+  clip-path: polygon(0 100%, 100% 100%, 100% 4%, 0 48%);
+  background-color: #131921;
+}
+
+/* Final Section */
+
+#cta {
+  padding: 6% 15% 12%;
+}
+
+.shrekpixel {
+  height: 12rem;
+  width: 9rem;
+  margin-top: 1.5rem;
+}
+
+.cta-heading-3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* Footer */
+#footer {
+  padding: 3% 15%;
+}
+.social-icon {
+  margin: 0 .5rem;
+}
